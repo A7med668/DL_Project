@@ -1,7 +1,7 @@
 
 # Amazon Reviews Sentiment Analysis
 
-This project involves analyzing Amazon product reviews to classify the sentiment (e.g., positive, negative, neutral). The analysis leverages Python and popular data science libraries to preprocess text data, build machine learning models, and evaluate their performance.
+This project involves analyzing Amazon product reviews to classify the sentiment (e.g., positive, negative, neutral). The analysis leverages Python and popular data science libraries to preprocess text data, build deep learning models, and evaluate their performance.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
