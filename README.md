@@ -1,3 +1,4 @@
+![Sentiment Analysis](https://github.com/A7med668/DL_Project/blob/main/image.png)
 
 # Amazon Reviews Sentiment Analysis
 
