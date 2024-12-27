@@ -15,7 +15,7 @@ This project involves analyzing Amazon product reviews to classify the sentiment
 ---
 
 ## Project Overview
-The goal of this project is to process a dataset of Amazon reviews, clean the text, and train deep learning models to predict sentiment. The project also demonstrates data preprocessing, feature extraction (e.g., TF-IDF), and model evaluation using metrics like accuracy and classification reports.
+The goal of this project is to process a dataset of Amazon reviews, clean the text, and train deep learning models to predict sentiment. The project also demonstrates data preprocessing, and model evaluation using metrics like accuracy and classification reports.
 
 ---
 
