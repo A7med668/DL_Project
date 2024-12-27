@@ -6,7 +6,7 @@ This project involves analyzing Amazon product reviews to classify the sentiment
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
-- [Features](#workflow)
+- [Workflow](#Workflow)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
