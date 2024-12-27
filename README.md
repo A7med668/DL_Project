@@ -1,63 +1,68 @@
-# DL_Project
-# Amazon Reviews Dataset Analysis
+# Sentiment Analysis Using Neural Networks 🌟
 
-This project focuses on analyzing the [Amazon Reviews Dataset](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews/data) using Python and various data analysis and machine learning techniques.
+## Project Overview  
+This project focuses on **Sentiment Analysis** using **Neural Networks** to classify text data into positive, negative, or neutral sentiments. The model utilizes **LSTM (Long Short-Term Memory)** networks for sequence-based text data processing. The goal is to create an efficient pipeline for text preprocessing, train a robust model, and deploy it for real-time sentiment prediction using **Streamlit**.
 
----
-
-## Table of Contents
-- [About the Dataset](#about-the-dataset)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+## Features  
+- **Data Exploration**: In-depth analysis and visualization of the dataset.  
+- **Text Preprocessing**: Tokenization, word embeddings, and cleaning for optimal model input.  
+- **Model Training**: Implementation of LSTM using **TensorFlow**/**PyTorch**, with experiments on architecture, activation functions, and learning rates.  
+- **Performance Evaluation**: Metrics like Accuracy, Precision, Recall, F1-Score, and Confusion Matrices for validation.  
+- **Deployment**: Interactive real-time predictions via **Streamlit**.  
 
 ---
 
-## About the Dataset
-
-The Amazon Reviews Dataset contains millions of reviews across various product categories. This dataset is ideal for sentiment analysis, text classification, and customer behavior analysis.
-
-### Key Dataset Features:
-- *Review Text*: Customer reviews in text format.
-- *Star Rating*: Ratings from 1 to 5 stars.
-- *Helpful Votes*: Number of users who found the review helpful.
-- *Review Date*: Date when the review was posted.
-- *Product Metadata*: Includes product categories, IDs, and titles.
-
-You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews/data).
+## Dataset  
+- Dataset Source: [Mention Dataset Source/Link]  
+- Description: The dataset contains labeled text data categorized into different sentiment classes.  
+- Format:  
+  - **Input**: Text  
+  - **Output**: Sentiment Labels (Positive, Negative, Neutral)
 
 ---
 
-## Features
+## Project Workflow  
+### 1. Data Preparation  
+- Load and explore the dataset.  
+- Visualize key insights (e.g., word distributions, label distributions).  
+- Preprocess data with:  
+  - Text cleaning (removing special characters, lowercasing).  
+  - Tokenization and padding.  
+  - Word embeddings using **Word2Vec** or **GloVe**.
 
-In this project, we perform:
-- *Data Cleaning*: Handle missing data, remove duplicates, and clean text fields.
-- *Exploratory Data Analysis (EDA)*: Visualize the distribution of ratings, review lengths, and helpful votes.
-- *Sentiment Analysis*: Classify reviews as positive or negative based on star ratings and review text.
-- *Text Preprocessing*: Tokenization, lemmatization, and stopword removal.
-- *Machine Learning Models*: Train classification models such as Logistic Regression, Random Forest, and XGBoost.
-- *Deep Learning*: Use transformer models like BERT for text classification.
+### 2. Model Development  
+- Build an **LSTM** model using TensorFlow/PyTorch.  
+- Experiment with:  
+  - Layer configurations.  
+  - Learning rates.  
+  - Optimizers (Adam, SGD).  
+  - Activation functions (ReLU, sigmoid).  
+
+### 3. Evaluation  
+- Train and validate the model.  
+- Evaluate using:  
+  - Confusion matrix.  
+  - Precision, recall, F1-score.  
+  - Accuracy metrics.
+
+### 4. Deployment  
+- Develop a user-friendly interface using **Streamlit** for real-time predictions.  
 
 ---
 
-## Getting Started
+## Installation  
+### Prerequisites  
+Ensure the following tools/libraries are installed:  
+- Python 3.8+  
+- TensorFlow / PyTorch  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn  
+- Scikit-learn  
+- Streamlit  
 
-Follow these steps to get started with the project:
-
-### Prerequisites
-- Python 3.7+
-- Kaggle account to download the dataset
-- Jupyter Notebook or Google Colab for running the code
-
----
-
-## Installation
-
-1. Clone the repository:
+### Setup  
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/amazon-reviews-analysis.git
-   cd amazon-reviews-analysis
+   git clone https://github.com/<your-username>/sentiment-analysis.git
+   cd sentiment-analysis
