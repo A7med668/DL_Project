@@ -28,9 +28,8 @@ The dataset used is sourced from Kaggle:
 
 ## Features
 1. **Data Cleaning**: Removing stopwords, punctuation, and applying lemmatization.
-2. **Feature Extraction**: Using Count Vectorizer and TF-IDF.
-3. **Sentiment Analysis**: Training machine learning models to classify sentiment.
-4. **Visualization**: Data distribution and insights using Matplotlib and Seaborn.
+2. **Sentiment Analysis**: Training deep learning model to classify sentiment.
+3. **Visualization & EDA**: Data distribution and insights using Matplotlib and Seaborn.
 
 ---
 
