@@ -54,6 +54,7 @@ pip install -r requirements.txt
 - `scikit-learn`
 - `kaggle`
 - `wordcloud`
+- `textBlob`
 - `streamlit`
 
 ---
