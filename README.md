@@ -26,10 +26,12 @@ The dataset used is sourced from Kaggle:
 
 ---
 
-## Features
-1. **Data Cleaning**: Removing stopwords, punctuation, and applying lemmatization.
-2. **Sentiment Analysis**: Training deep learning model to classify sentiment.
-3. **Visualization & EDA**: Data distribution and insights using Matplotlib and Seaborn.
+## Workflow
+1. **Data Preparation**: Importing Data from Kaggle and viewing it.
+2. **EDA & Visualization**: Data distribution and insights using Matplotlib and Seaborn.
+3. **Data Cleaning & Preprocessing**: Removing stopwords, punctuation, and applying lemmatization.
+4. **Building Model**:Training deep learning model to classify sentiment using LSTM. 
+5. **Interface**: Using Streamlit to build GUI.
 
 ---
 
@@ -50,6 +52,8 @@ pip install -r requirements.txt
 - `tensorflow`
 - `scikit-learn`
 - `kaggle`
+- `wordcloud`
+- `streamlit`
 
 ---
 
@@ -87,9 +91,9 @@ cd amazon-reviews-analysis
 - **Libraries**:
   - Data Analysis: Pandas, NumPy
   - Data Visualization: Matplotlib, Seaborn
-  - Text Processing: NLTK, TF-IDF
+  - Text Processing: NLTK
   - Machine Learning: TensorFlow, scikit-learn
-- **Environment**: Jupyter Notebook
+- **Environment**: Google Colab
 
 ---
 
