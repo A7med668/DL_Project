@@ -94,7 +94,7 @@ cd amazon-reviews-analysis
   - Data Analysis: Pandas, NumPy
   - Data Visualization: Matplotlib, Seaborn
   - Text Processing: NLTK
-  - Machine Learning: TensorFlow, scikit-learn
+  - Deep Learning: TensorFlow, scikit-learn
 - **Environment**: Google Colab
 
 ---
